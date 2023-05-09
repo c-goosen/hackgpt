@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 # openai.id
-openai.api_key = os.getenv("OPENAI_API_KEY", "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")
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 
 app = typer.Typer()
 
